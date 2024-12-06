@@ -1,11 +1,12 @@
 package org.example.model;
 
 public class Pistol extends Toy {
-    public Pistol(){
+    public Pistol() {
         super("Pistol", "un pistolet");
     }
+
     @Override
-    public void produce(){
+    public void produce() {
 //        System.out.println("Pistol Produce");
     }
 }

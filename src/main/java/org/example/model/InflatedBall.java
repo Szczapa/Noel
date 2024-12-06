@@ -8,7 +8,7 @@ public class InflatedBall extends ToyDecorator {
     }
 
     @Override
-    public void produce(){
+    public void produce() {
         decoratedToy.produce();
 //        System.out.println("Inflating "+ decoratedToy.getName());
     }

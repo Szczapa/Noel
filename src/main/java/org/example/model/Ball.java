@@ -6,7 +6,7 @@ public class Ball extends Toy {
     }
 
     @Override
-    public void produce(){
+    public void produce() {
 //        System.out.println("Ball Produce");
     }
-   }
+}

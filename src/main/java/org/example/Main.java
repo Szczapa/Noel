@@ -3,14 +3,11 @@ package org.example;
 import org.example.factories.BallFactory;
 import org.example.factories.PistolFactory;
 import org.example.factories.ToyFactory;
-import org.example.interfaces.IObserver;
 import org.example.model.CamoPistol;
 import org.example.model.InflatedBall;
 import org.example.model.Toy;
 import org.example.observers.ElfNotify;
 import org.example.observers.EventManager;
-
-import java.util.Observer;
 
 public class Main {
     public static void main(String[] args) {
